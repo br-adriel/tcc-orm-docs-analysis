@@ -1,0 +1,153 @@
+Name,Signature,Match
+$with,$with(),n
+alias,"function alias(table, alias)",y
+aliasedTable,"function aliasedTable(table, tableAlias)",y
+append,append(),y
+arrayContains,"function arrayContains(column, values)",y
+arrayOverlaps,"function arrayOverlaps(column, values)",y
+as,as(),n
+asc,function asc(column),y
+avgDistinct,function avgDistinct(expression),y
+batch,batch(),n
+between,"function between(column, min, max)",y
+bigint,"function bigint(a, b)",n
+bigserial,"function bigserial(a, b)",y
+binary,"function binary(a, )",y
+blob,"function blob(a, b)",n
+boolean,function boolean(name),y
+char,"function char(a, )",y
+check,"function check(name, value)",y
+connect,connect(),y
+cosineDistance,"function cosineDistance(column, value)",y
+count,count(),y
+count,function count(expression),y
+countDistinct,function countDistinct(expression),y
+customType,function customType(customTypeParams),y
+dataType,dataType(),y
+date,"function date(a, b)",y
+datetime,"function datetime(a, b)",y
+decimal,"function decimal(a, )",y
+default,default(),y
+desc,function desc(column),y
+double,"function double(a, b)",y
+doublePrecision,function doublePrecision(name),y
+drizzle,"function drizzle(callback, batchCallback, config)",n
+drizzle,"function drizzle(client, )",y
+drizzle,"function drizzle(callback, , )",y
+drizzle,function drizzle(),y
+drizzle,"function drizzle(callback, )",y
+empty,function empty(),y
+empty,empty(),y
+execute,execute(),y
+existing,existing(),y
+exists,function exists(subquery),y
+float,"function float(a, b)",n
+foreignKey,function foreignKey(config),y
+fromList,function fromList(list),y
+geometry,"function geometry(a, b)",y
+getTableColumns,function getTableColumns(table),y
+getTableConfig,function getTableConfig(table),y
+hammingDistance,"function hammingDistance(column, value)",y
+ilike,"function ilike(column, value)",y
+inArray,"function inArray(column, values)",y
+index,function index(name),y
+innerProduct,"function innerProduct(column, value)",y
+insert,insert(),y
+insert,function insert(into),y
+insert,function insert(table),y
+int,"function int(a, b)",n
+integer,"function integer(a, b)",y
+integer,function integer(name),y
+interval,"function interval(a, )",y
+isNotNull,function isNotNull(value),y
+isNull,function isNull(value),y
+iterator,iterator(),y
+jaccardDistance,"function jaccardDistance(column, value)",y
+json,function json(name),y
+jsonb,function jsonb(name),y
+l1Distance,"function l1Distance(column, value)",y
+l2Distance,"function l2Distance(column, value)",y
+like,"function like(column, value)",y
+limit,limit(),y
+line,"function line(a, b)",n
+logQuery,logQuery(),n
+many,"function many(referencedTable, config)",y
+mapWith,mapWith(),y
+mediumint,"function mediumint(a, b)",n
+migrate,"function migrate(db, config)",y
+migrate,"function migrate(db, callback, config)",y
+migrate,migrate(),y
+mock,function mock(config),y
+mysqlEnum,"function mysqlEnum(a, b)",y
+mysqlTableCreator,function mysqlTableCreator(customizeTableName),y
+mysqlView,"function mysqlView(name, selection)",n
+not,function not(condition),y
+notBetween,"function notBetween(column, min, max)",y
+notExists,function notExists(subquery),y
+notIlike,"function notIlike(column, value)",y
+notInArray,"function notInArray(column, values)",y
+notNull,notNull(),y
+numeric,"function numeric(a, b)",y
+numeric,function numeric(name),y
+on,on(),y
+onDelete,onDelete(),n
+one,"function one(table, config)",y
+one,one(),n
+orderBy,orderBy(),y
+pgEnum,"function pgEnum(enumName, values)",y
+pgMaterializedView,"function pgMaterializedView(name, columns)",y
+pgPolicy,"function pgPolicy(name, config)",y
+pgRole,"function pgRole(name, config)",y
+pgSchema,function pgSchema(name),y
+pgSequence,"function pgSequence(name, options)",y
+pgTableCreator,function pgTableCreator(customizeTableName),y
+pgView,"function pgView(name, columns)",y
+placeholder,function placeholder(name),y
+point,"function point(a, b)",y
+prepare,prepare(),y
+primaryKey,function primaryKey(),y
+primaryKey,primaryKey(),y
+real,function real(name),y
+real,"function real(a, )",y
+refreshMaterializedView,refreshMaterializedView(),n
+relations,"function relations(table, relations)",y
+rollback,rollback(),y
+run,run(),y
+select,function select(fields),y
+select,select(),y
+selectDistinct,function selectDistinct(fields),y
+selectDistinct,selectDistinct(),y
+serial,function serial(name),y
+singlestoreTableCreator,function singlestoreTableCreator(customizeTableName),y
+smallint,function smallint(name),y
+smallint,"function smallint(a, b)",n
+smallserial,function smallserial(name),n
+sql,"function sql(strings, )",
+sql,sql(),y
+sqlToQuery,sqlToQuery(),n
+sqliteTableCreator,function sqliteTableCreator(customizeTableName),y
+sqliteView,"function sqliteView(name, selection)",n
+string,string(),y
+sum,function sum(expression),y
+sumDistinct,function sumDistinct(expression),y
+table,table(),n
+text,"function text(a, )",y
+time,"function time(a, b)",y
+time,"function time(a, )",y
+time,function time(name),y
+timestamp,"function timestamp(a, )",y
+tinyint,"function tinyint(a, b)",n
+transaction,transaction(),n
+unique,function unique(name),y
+unique,unique(),y
+uniqueIndex,function uniqueIndex(name),y
+update,update(),y
+update,function update(table),y
+uuid,function uuid(name),y
+varbinary,"function varbinary(a, b)",n
+varchar,"function varchar(a, b)",y
+varchar,"function varchar(a, )",y
+vector,"function vector(a, b)",y
+where,where(),y
+write,write(),n
+year,function year(name),n

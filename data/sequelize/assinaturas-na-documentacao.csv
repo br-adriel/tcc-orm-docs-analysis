@@ -1,0 +1,45 @@
+Name,Signature,Match
+addColumn,addColumn(),n
+addHook,"function addHook(this, hookName, listenerNameOrHook, hook)",y
+addHook,"function addHook(this, listenerNameOrHook, hook)",y
+addIndex,addIndex(),n
+authenticate,authenticate(),y
+build,build(),y
+bulkCreate,bulkCreate(),y
+changeColumn,changeColumn(),n
+changed,changed(),y
+classToInvokable,function classToInvokable(constructor),y
+col,function col(),n
+col,col(),n
+commit,commit(),y
+count,count(),y
+createTable,createTable(),n
+decrement,decrement(),y
+define,define(),n
+destroy,destroy(),y
+dropTable,dropTable(),n
+findAll,findAll(),y
+findByPk,findByPk(),n
+findOne,findOne(),y
+fn,"function fn(fnName, )",y
+fn,fn(),n
+getConnection,getConnection(),y
+getDataValue,getDataValue(),n
+increment,increment(),y
+init,init(),y
+literal,function literal(val),y
+query,query(),y
+removeColumn,removeColumn(),n
+removeHook,"function removeHook(this, hookName, listenerNameOrListener)",y
+rollback,rollback(),y
+save,save(),y
+setDataValue,setDataValue(),n
+sync,sync(),y
+toSql,toSql(),y
+transaction,transaction(),y
+update,update(),y
+upsert,upsert(),y
+validate,validate(),y
+validate,function validate(),y
+where,function where(),y
+where,where(),y

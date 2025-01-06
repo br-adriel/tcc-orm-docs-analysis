@@ -1,0 +1,34 @@
+Name,Signature,Match
+$connect,$connect(),y
+$disconnect,$disconnect(),y
+$executeRaw,$executeRaw(),y
+$executeRawUnsafe,$executeRawUnsafe(),y
+$extends,"function $extends(this, extension)",n
+$extends,$extends(),n
+$on,$on(),y
+$queryRaw,$queryRaw(),y
+$queryRawUnsafe,$queryRawUnsafe(),y
+$transaction,$transaction(),y
+$use,$use(),y
+aggregate,aggregate(),y
+aggregate,"function aggregate(args, modelAction)",n
+compute,compute(),y
+count,count(),y
+count,"function count(args, modelAction)",n
+createMany,createMany(),y
+defineExtension,function defineExtension(ext),y
+deleteMany,deleteMany(),y
+exists,exists(),n
+findFirst,findFirst(),y
+findMany,findMany(),y
+findUnique,findUnique(),y
+getExtensionContext,function getExtensionContext(that),y
+inspect,inspect(),n
+inspect,function inspect(conn),n
+json,json(),y
+query,query(),n
+update,update(),y
+updateMany,updateMany(),y
+upsert,upsert(),y
+validator,function validator(),y
+validator,validator(),n

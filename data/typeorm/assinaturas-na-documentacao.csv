@@ -1,0 +1,245 @@
+Name,Signature,Match
+AfterInsert,function AfterInsert(),y
+AfterLoad,function AfterLoad(),y
+AfterRecover,function AfterRecover(),y
+AfterRemove,function AfterRemove(),y
+AfterSoftRemove,function AfterSoftRemove(),y
+AfterUpdate,function AfterUpdate(),y
+Any,function Any(value),y
+ArrayContainedBy,function ArrayContainedBy(value),y
+ArrayContains,function ArrayContains(value),y
+ArrayOverlap,function ArrayOverlap(value),y
+BeforeInsert,function BeforeInsert(),y
+BeforeRecover,function BeforeRecover(),y
+BeforeRemove,function BeforeRemove(),y
+BeforeSoftRemove,function BeforeSoftRemove(),y
+BeforeUpdate,function BeforeUpdate(),y
+Between,"function Between(from, to)",y
+Check,"function Check(nameOrExpression, maybeExpression)",n
+ChildEntity,function ChildEntity(discriminatorValue),n
+Column,"function Column(typeOrOptions, options)",y
+CreateDateColumn,function CreateDateColumn(options),n
+DeleteDateColumn,function DeleteDateColumn(options),n
+Entity,"function Entity(nameOrOptions, maybeOptions)",n
+Equal,function Equal(value),y
+EventSubscriber,function EventSubscriber(),y
+Exclusion,"function Exclusion(nameOrExpression, maybeExpression)",n
+Generated,function Generated(),y
+ILike,function ILike(value),y
+In,function In(value),y
+Index,"function Index(nameOrFieldsOrOptions, maybeFieldsOrOptions, maybeOptions)",y
+IsNull,function IsNull(),y
+JoinColumn,function JoinColumn(optionsOrOptionsArray),y
+JoinTable,function JoinTable(options),y
+LessThan,function LessThan(value),y
+LessThanOrEqual,function LessThanOrEqual(value),y
+Like,function Like(value),y
+ManyToMany,"function ManyToMany(typeFunctionOrTarget, inverseSideOrOptions, options)",y
+ManyToOne,"function ManyToOne(typeFunctionOrTarget, inverseSideOrOptions, options)",n
+MoreThan,function MoreThan(value),y
+MoreThanOrEqual,function MoreThanOrEqual(value),y
+Not,function Not(value),y
+ObjectIdColumn,function ObjectIdColumn(options),n
+OneToMany,"function OneToMany(typeFunctionOrTarget, inverseSide, options)",n
+OneToOne,"function OneToOne(typeFunctionOrTarget, inverseSideOrOptions, options)",n
+PrimaryColumn,"function PrimaryColumn(typeOrOptions, options)",y
+PrimaryGeneratedColumn,"function PrimaryGeneratedColumn(strategyOrOptions, maybeOptions)",n
+Raw,"function Raw(valueOrSqlGenerator, sqlGeneratorParameters)",y
+RelationId,"function RelationId(relation, alias, queryBuilderFactory)",n
+TableInheritance,function TableInheritance(options),y
+Tree,"function Tree(type, options)",y
+TreeChildren,function TreeChildren(options),n
+TreeLevelColumn,function TreeLevelColumn(),y
+TreeParent,function TreeParent(options),n
+Unique,"function Unique(nameOrFieldsOrOptions, maybeFieldsOrOptions, maybeOptions)",y
+UpdateDateColumn,function UpdateDateColumn(options),n
+VersionColumn,function VersionColumn(options),n
+ViewColumn,function ViewColumn(options),n
+ViewEntity,"function ViewEntity(nameOrOptions, maybeOptions)",n
+VirtualColumn,"function VirtualColumn(typeOrOptions, options)",n
+addColumn,addColumn(),n
+addColumns,addColumns(),n
+addGroupBy,addGroupBy(),n
+addOrderBy,addOrderBy(),n
+addSelect,addSelect(),n
+afterInsert,afterInsert(),n
+afterQuery,afterQuery(),n
+afterRecover,afterRecover(),n
+afterRemove,afterRemove(),n
+afterSoftRemove,afterSoftRemove(),n
+afterTransactionCommit,afterTransactionCommit(),n
+afterTransactionRollback,afterTransactionRollback(),n
+afterTransactionStart,afterTransactionStart(),n
+afterUpdate,afterUpdate(),n
+aggregate,aggregate(),n
+andWhere,andWhere(),n
+average,average(),n
+beforeInsert,beforeInsert(),n
+beforeQuery,beforeQuery(),n
+beforeRecover,beforeRecover(),n
+beforeRemove,beforeRemove(),n
+beforeSoftRemove,beforeSoftRemove(),n
+beforeTransactionCommit,beforeTransactionCommit(),n
+beforeTransactionRollback,beforeTransactionRollback(),n
+beforeTransactionStart,beforeTransactionStart(),n
+beforeUpdate,beforeUpdate(),n
+bulkWrite,bulkWrite(),n
+cache,cache(),n
+changeColumn,changeColumn(),n
+changeColumns,changeColumns(),n
+clearSqlMemory,clearSqlMemory(),y
+clearTable,clearTable(),n
+collectionIndexExists,collectionIndexExists(),n
+collectionIndexInformation,collectionIndexInformation(),n
+collectionIndexes,collectionIndexes(),n
+commitTransaction,commitTransaction(),y
+connect,connect(),y
+count,count(),n
+countBy,countBy(),n
+countDocuments,countDocuments(),n
+createAncestorsQueryBuilder,createAncestorsQueryBuilder(),n
+createCheckConstraint,createCheckConstraint(),n
+createCheckConstraints,createCheckConstraints(),n
+createCollectionIndex,createCollectionIndex(),n
+createCollectionIndexes,createCollectionIndexes(),n
+createCursor,createCursor(),n
+createDescendantsQueryBuilder,createDescendantsQueryBuilder(),n
+createEntityCursor,createEntityCursor(),y
+createForeignKey,createForeignKey(),n
+createForeignKeys,createForeignKeys(),n
+createIndex,createIndex(),y
+createIndices,createIndices(),y
+createQueryBuilder,"function createQueryBuilder(entityClass, alias, )",y
+createQueryBuilder,createQueryBuilder(),y
+createQueryRunner,createQueryRunner(),y
+createTable,createTable(),n
+createUniqueConstraint,createUniqueConstraint(),n
+createUniqueConstraints,createUniqueConstraints(),n
+decrement,decrement(),n
+deleteMany,deleteMany(),n
+deleteOne,deleteOne(),n
+destroy,destroy(),y
+disableSqlMemory,disableSqlMemory(),y
+distinct,distinct(),n
+down,down(),n
+dropCheckConstraint,dropCheckConstraint(),y
+dropCheckConstraints,dropCheckConstraints(),n
+dropCollectionIndex,dropCollectionIndex(),n
+dropCollectionIndexes,dropCollectionIndexes(),n
+dropColumn,dropColumn(),n
+dropColumns,dropColumns(),n
+dropDatabase,dropDatabase(),y
+dropForeignKey,dropForeignKey(),n
+dropForeignKeys,dropForeignKeys(),n
+dropIndex,dropIndex(),y
+dropIndices,dropIndices(),y
+dropUniqueConstraint,dropUniqueConstraint(),n
+dropUniqueConstraints,dropUniqueConstraints(),n
+enableSqlMemory,enableSqlMemory(),y
+execute,execute(),y
+exists,exists(),n
+existsBy,existsBy(),n
+findAndCount,findAndCount(),n
+findAndCountBy,findAndCountBy(),n
+findBy,findBy(),n
+findDescendantsTree,findDescendantsTree(),n
+findOne,findOne(),n
+findOneAndDelete,findOneAndDelete(),n
+findOneAndReplace,findOneAndReplace(),n
+findOneAndUpdate,findOneAndUpdate(),n
+findOneBy,findOneBy(),n
+findOneByOrFail,findOneByOrFail(),n
+findOneOrFail,findOneOrFail(),n
+findRoots,findRoots(),y
+getCount,getCount(),y
+getDatabases,getDatabases(),y
+getId,getId(),n
+getMany,getMany(),y
+getMemorySql,getMemorySql(),y
+getMetadata,getMetadata(),n
+getMongoManager,function getMongoManager(),y
+getMongoRepository,"function getMongoRepository(entityClass, )",y
+getMongoRepository,getMongoRepository(),n
+getOne,getOne(),y
+getParameters,getParameters(),y
+getQuery,getQuery(),y
+getQueryAndParameters,getQueryAndParameters(),y
+getRawMany,getRawMany(),y
+getRawOne,getRawOne(),y
+getRepository,getRepository(),y
+getRepository,"function getRepository(entityClass, )",y
+getSchemas,getSchemas(),n
+getSql,getSql(),y
+getTables,getTables(),n
+getTreeRepository,"function getTreeRepository(entityClass, )",y
+getTreeRepository,getTreeRepository(),n
+group,group(),n
+hasDatabase,hasDatabase(),n
+hasId,hasId(),n
+hasMetadata,hasMetadata(),n
+hasTable,hasTable(),n
+increment,increment(),n
+initialize,initialize(),y
+initializeOrderedBulkOp,initializeOrderedBulkOp(),n
+initializeUnorderedBulkOp,initializeUnorderedBulkOp(),n
+innerJoin,innerJoin(),n
+innerJoinAndSelect,innerJoinAndSelect(),n
+insert,insert(),y
+insertMany,insertMany(),y
+insertOne,insertOne(),n
+into,into(),n
+isCapped,isCapped(),n
+leftJoin,leftJoin(),n
+leftJoinAndSelect,leftJoinAndSelect(),n
+limit,limit(),n
+listCollectionIndexes,listCollectionIndexes(),n
+listenTo,listenTo(),y
+loadMany,loadMany(),y
+logQuery,logQuery(),n
+maximum,maximum(),n
+merge,merge(),n
+minimum,minimum(),n
+offset,offset(),n
+orUpdate,orUpdate(),n
+orWhere,orWhere(),n
+orderBy,orderBy(),n
+preload,preload(),n
+prepareLogMessages,prepareLogMessages(),n
+query,query(),y
+recover,recover(),n
+release,release(),y
+remove,remove(),y
+rename,rename(),n
+renameColumn,renameColumn(),n
+replaceOne,replaceOne(),n
+restore,restore(),y
+returning,returning(),n
+rollbackTransaction,rollbackTransaction(),y
+runMigrations,runMigrations(),y
+save,save(),y
+select,select(),y
+setLock,setLock(),n
+setOnLocked,setOnLocked(),n
+setParameter,setParameter(),n
+setParameters,setParameters(),n
+skip,skip(),n
+softDelete,softDelete(),y
+softRemove,softRemove(),n
+startTransaction,startTransaction(),y
+stats,stats(),n
+stream,stream(),y
+subQuery,subQuery(),y
+sum,sum(),n
+synchronize,synchronize(),y
+timeTravelQuery,timeTravelQuery(),y
+transaction,transaction(),n
+undoLastMigration,undoLastMigration(),y
+up,up(),n
+update,update(),n
+updateMany,updateMany(),n
+updateOne,updateOne(),n
+updatePrimaryKeys,updatePrimaryKeys(),n
+upsert,upsert(),n
+where,where(),n
+withDeleted,withDeleted(),y
+writeLog,writeLog(),n

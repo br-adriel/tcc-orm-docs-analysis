@@ -1,0 +1,142 @@
+Name,Signature,Match
+getConnection,getConnection(),y
+getRepository,getRepository(),y
+getContext,getContext(),y
+fork,fork(),y
+populate,populate(),y
+toPOJO,toPOJO(),y
+applyFilters,applyFilters(),y
+merge,merge(),y
+isEmpty,isEmpty(),y
+count,count(),y
+findAndCount,findAndCount(),y
+refresh,refresh(),y
+findOne,findOne(),y
+nativeUpdate,nativeUpdate(),y
+usesReturningStatement,usesReturningStatement(),y
+upsertMany,upsertMany(),y
+matching,matching(),n
+transactional,transactional(),y
+getChangeSets,getChangeSets(),y
+flush,flush(),y
+begin,begin(),y
+commit,commit(),y
+rollback,rollback(),y
+lock,lock(),y
+getSchema,getSchema(),y
+setSchema,setSchema(),n
+getPersistStack,getPersistStack(),y
+nativeInsert,nativeInsert(),y
+nativeDelete,nativeDelete(),y
+mapResult,mapResult(),y
+persist,persist(),y
+remove,remove(),y
+clone,clone(),y
+setFlushMode,setFlushMode(),y
+getEntityManager,getEntityManager(),y
+init,init(),y
+connect,connect(),y
+ensureIndexes,ensureIndexes(),y
+getDriver,getDriver(),y
+isConnected,isConnected(),y
+checkConnection,checkConnection(),y
+close,close(),y
+reset,reset(),n
+getSeeder,getSeeder(),y
+getMigrator,getMigrator(),y
+getSnapshot,getSnapshot(),y
+getIdentifiers,getIdentifiers(),y
+convertToDatabaseValue,convertToDatabaseValue(),n
+referenceColumnName,referenceColumnName(),y
+getNamingStrategy,getNamingStrategy(),y
+quoteIdentifier,quoteIdentifier(),n
+getItems,getItems(),y
+contains,contains(),n
+isInitialized,isInitialized(),y
+populated,populated(),y
+toObject,toObject(),y
+serialize,serialize(),y
+usesPivotTable,usesPivotTable(),y
+exists,exists(),n
+indexBy,indexBy(),y
+convertToJSValue,convertToJSValue(),n
+getReference,getReference(),y
+unwrap,unwrap(),y
+denormalizePrimaryKey,denormalizePrimaryKey(),n
+getSerializedPrimaryKeyField,getSerializedPrimaryKeyField(),n
+normalizePrimaryKey,normalizePrimaryKey(),n
+getTransactionContext,getTransactionContext(),y
+findOneOrFail,findOneOrFail(),y
+upsert,upsert(),y
+findByCursor,findByCursor(),y
+findAll,findAll(),y
+insert,insert(),y
+toReference,toReference(),y
+createNakedFromPK,createNakedFromPK(),y
+getEntity,getEntity(),y
+ref,"function ref(entityOrType, pk)",y
+rel,"function rel(entityType, pk)",y
+wrap,"function wrap(entity, )",y
+getSubscribedEntities,getSubscribedEntities(),y
+Check,function Check(options),y
+CreateRequestContext,"function CreateRequestContext(context, )",y
+EnsureRequestContext,function EnsureRequestContext(context),n
+Embeddable,function Embeddable(),y
+Embedded,"function Embedded(, )",y
+Entity,function Entity(),y
+Enum,function Enum(),y
+Filter,function Filter(options),y
+Formula,"function Formula(formula, )",y
+Index,function Index(),y
+Unique,function Unique(),y
+ManyToMany,"function ManyToMany(entity, mappedBy, )",y
+ManyToOne,"function ManyToOne(, )",y
+OneToMany,"function OneToMany(entity, mappedBy, )",y
+OneToOne,"function OneToOne(entity, mappedByOrOptions, )",n
+PrimaryKey,function PrimaryKey(),y
+SerializedPrimaryKey,function SerializedPrimaryKey(),y
+Property,function Property(),y
+Transactional,function Transactional(),y
+BeforeCreate,function BeforeCreate(),y
+AfterCreate,function AfterCreate(),y
+BeforeUpdate,function BeforeUpdate(),y
+AfterUpdate,function AfterUpdate(),y
+OnInit,function OnInit(),y
+OnLoad,function OnLoad(),y
+BeforeDelete,function BeforeDelete(),y
+AfterDelete,function AfterDelete(),y
+wrap,wrap(),y
+ensureComparable,ensureComparable(),y
+addProperty,addProperty(),y
+getClassName,getClassName(),y
+classToTableName,classToTableName(),n
+propertyToColumnName,propertyToColumnName(),n
+joinKeyColumnName,joinKeyColumnName(),n
+joinTableName,joinTableName(),y
+joinColumnName,joinColumnName(),n
+indexForeignKeys,indexForeignKeys(),y
+indexName,indexName(),n
+getMappedType,getMappedType(),y
+getColumnType,getColumnType(),y
+compareAsType,compareAsType(),y
+convertToJSValueSQL,convertToJSValueSQL(),n
+convertToDatabaseValueSQL,convertToDatabaseValueSQL(),n
+getEntityName,getEntityName(),n
+getDefaultMappedType,getDefaultMappedType(),n
+getType,getType(),y
+serialize,"function serialize(entities, options)",y
+invalidType,invalidType(),n
+isTouched,isTouched(),y
+getStore,getStore(),y
+computeChangeSet,computeChangeSet(),y
+run,run(),y
+supportsTransactions,supportsTransactions(),y
+dropSchema,dropSchema(),y
+createSchema,createSchema(),y
+getDefaultClientUrl,getDefaultClientUrl(),y
+defineConfig,function defineConfig(options),y
+getConfig,getConfig(),y
+sql,"function sql(sql, )",y
+update,update(),n
+clone,"function clone(parent, )",n
+getEntityManager,"function getEntityManager(caller, context)",n
